@@ -1,5 +1,5 @@
 
-const tanggalTujuan = new Date('june 25, 2022 00:50:00').getTime();
+const tanggalTujuan = new Date('june 25, 2022 01:04:00').getTime();
 
 const hitungMundur = setInterval(function() {
 
@@ -22,7 +22,7 @@ minutes.innerHTML = menit;
 seconds.innerHTML = detik;
     
 
-    if (selisih == 0) {
+    if (selisih <= 0) {
         clearInterval(hitungMundur);
         window.location.href = "https://danishramadhana.github.io/Happy_B-day/"}
 }, 1000);
