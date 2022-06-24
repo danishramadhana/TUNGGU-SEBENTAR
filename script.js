@@ -1,5 +1,5 @@
 
-const tanggalTujuan = new Date('june 25, 2022 00:40:00').getTime();
+const tanggalTujuan = new Date('june 25, 2022 00:50:00').getTime();
 
 const hitungMundur = setInterval(function() {
 
